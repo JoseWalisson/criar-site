@@ -32,6 +32,10 @@ header img {
     font-size: 1.5em;
 }
 
+#chamada a {
+    width: 10vw;
+}
+
 .acoes {
     display: flex;
     justify-content: center;
@@ -73,6 +77,20 @@ header > img {
     display: none;
 }
 
+main {
+    background-color: #5ce1e6;
+}
+
+main #servicos {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     #chamada {
@@ -83,6 +101,10 @@ header > img {
 
     #chamada span {
         font-size: 3em;
+    }
+
+    #chamada > img {
+        cursor: pointer;
     }
 
     header img {
@@ -113,6 +135,10 @@ header > img {
         margin: 2em 0 2em 0;
     }
 
+    #chamada > img {
+        cursor: pointer;
+    }
+
     header .ilustra {
         display: block;
     }
@@ -139,12 +165,6 @@ header > img {
         width: 150px;
         height: 150px;
         margin-right: 50em;
-    }
-
-    header img:hover {
-        width: 250px;
-        height: 250px;
-        cursor: pointer;
     }
 
     .acoes .solicitar {
@@ -183,6 +203,10 @@ header > img {
         justify-content: space-around;
         flex-direction: column;
         margin: 2em 0 2em 0;
+    }
+
+    #chamada > img {
+        cursor: pointer;
     }
 
     header .ilustra {
